@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+header {
+    height: 22vh;
+    background: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6.6vh;
+    color: rgb(254, 60, 0);
+    padding-top: 0.5vh;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.955vh;
+    padding: 0.5vh;
+    color: rgb(254, 60, 0);
+}
+
+/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
+body {
+    background: url(./Photos/Sunrise.jpg) center/cover no-repeat;
+    background-color: black;
+    min-height: 100vh;
+    /* VH= 100% de la taille de l'écran (Viewport Height)*/
+}
+
+/*SECTION_1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.section_1 {
+    padding: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section_1 .text01 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.16rem;
+    color: black;
+}
+
+/*SECTION_2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.section_2 {
+    width: 1650px;
+    padding-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_2 .droite_2 {
+    width: 1020px;
+    margin-top: -494px;
+    margin-left: 640px;
+}
+
+.D1 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D2 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D3 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D4 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D5 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D6 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D7 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D8 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D9 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D10 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D11 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D12 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D13 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D14 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D15 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D16 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D17 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D18 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D19 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D20 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D21 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D22 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D23 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D24 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.D25 {
+    position: absolute;
+    transition: 0.8s;
+}
+
+.epure {
+    position: relative;
+    width: 871px;
+    height: 490px;
+    background-image: url(./Diapos/Cs_01.jpg);
+}
+
+.section_2 #cercle {
+    height: 45px;
+    width: 45px;
+    background: blue;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    z-index: +1;
+}
+
+.section_2 #compteur {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: yellow;
+    position: relative;
+    top: -28px;
+    left: 2px;
+    transition: 0.8s;
+    z-index: +2;
+}
+
+.section_2 #legende {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: blue;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    transition: 0.8s;
+}
+
+#start {
+    background-color: rgb(248, 224, 160);
+    height: 28px;
+    width: 136px;
+    border-radius: 4px;
+    position: relative;
+    top: -145px;
+    left: 874px;
+    color: black;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#back {
+    background-color: rgb(252, 224, 160);
+    height: 28px;
+    width: 136px;
+    border-radius: 4px;
+    position: relative;
+    top: -115px;
+    left: 734px;
+    color: black;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+/*SECTION_3 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.section_3 {
+    width: 700px;
+    padding: 2.3vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section_3 #text_3 {
+    width: 330px;
+    font-size: 1.4rem;
+    color: black;
+    margin-top: 5px;
+}
+
+.section_3 #bouton {
+    background-color: rgb(254, 106, 0);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    color: blue;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.section_3 #bouton :link {
+    text-decoration: none;
+}
+
+.section_3 #bouton :hover {
+    background-color: rgb(254, 50, 0);
+    color: darkblue;
+    transition: 0.5s;
+}
+
+/*SECTION_4 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.section_4 {
+    width: 1950px;
+    height: 350px;
+    padding-top: 4.6vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_4 .Est {
+    padding-left: 12px;
+}
+
+.section_4 .Est #tx_1 {
+    font-size: 1.08rem;
+    font-weight: bold;
+    color: blue;
+}
+
+.section_4 .NordEst {
+    padding-left: 30px;
+}
+
+.section_4 .NordEst #tx_2 {
+    font-size: 1.08rem;
+    font-weight: bold;
+    color: blue;
+}
+
+.section_4 .NordOuest {
+    padding-left: 30px;
+}
+
+.section_4 .NordOuest #tx_3 {
+    font-size: 1.08rem;
+    font-weight: bold;
+    color: blue;
+}
+
+.section_4 .Legale {
+    padding-left: 30px;
+}
+
+.section_4 .Legale #tx_4 {
+    font-size: 1.08rem;
+    font-weight: bold;
+    color: blue;
+}
+
+/*SECTION_5 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+.section_5 {
+    height: 360px;
+    padding-top: 10vh;
+}
+
+.section_5 .Est {
+    visibility: hidden;
+}
+
+/*FOOTER XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+footer {
+    margin-bottom: 48px;
+    height: 35px;
+    background-color: rgb(254, 90, 0);
+    font-size: 1.15rem;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space space-between;
+}
+
+#symbole {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+#lien {
+    margin-top: 8px;
+    padding-left: 60px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/*Traitement du PROGRESSIF %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@media screen and (max-width: 1100px) {
+    header {
+        padding: 25px;
+    }
+
+    /*SECTION_2*************************************************************************/
+    .section_2 {
+        flex-direction: column;
+    }
+
+    .section_2 .gauche_2 {
+        margin: 1%;
+        padding: 0%;
+    }
+
+    .section_2 .droite_2 {
+        margin: 1%;
+        padding: 0%;
+    }
+
+    .section_2 #start {
+        display: block;
+        margin-block-start: 130px;
+        margin-left: -700px;
+    }
+
+    .section_2 #back {
+        display: block;
+        margin-block-start: -58px;
+        margin-left: -422px;
+    }
+
+    /*SECTION_3*************************************************************************/
+    .section_3 {
+        flex-direction: column;
+        margin-left: 130px;
+    }
+
+    /*SECTION_4*************************************************************************/
+    .section_4 {
+        flex-direction: column;
+    }
+
+    .section_4 .Est {
+        margin-left: 5px;
+    }
+
+    .section_4 .NordEst {
+        margin-top: 410px;
+        margin-left: -774px;
+    }
+
+    .section_4 .NordOuest {
+        margin-top: 820px;
+        margin-left: -1170px;
+    }
+
+    .section_4 .Legale {
+        margin-top: 1230px;
+        margin-left: -1566px;
+    }
+
+    /*FOOTER*************************************************************************/
+    footer {
+        margin-top: 1250px;
+    }
+}
+
+/*Jaune_ Jaune*/
